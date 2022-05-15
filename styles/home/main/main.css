@@ -1,0 +1,576 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+}
+html body {
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+html body header {
+  position: absolute;
+  top: 0;
+  left: calc(50px - 100vw);
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  transition: 0.5s;
+  z-index: 100;
+}
+html body header .header-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.25s;
+}
+html body header .header-button:hover .header-button-content {
+  border: 1px solid #c6e6ef;
+}
+html body header .header-button .header-button-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.25s;
+}
+html body header .header-button .header-button-content .header-button-content-border-one {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+html body header .header-button .header-button-content .header-button-content-border-two-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+html body header .header-button .header-button-content .header-button-content-border-two-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+html body header .header-button .header-button-content .header-button-content-border-three {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+html body header .header-content {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: calc(40vw - 100px);
+  padding: 0 50px;
+  opacity: 0;
+  transition: 0.5s;
+}
+html body header .header-content a {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 2px solid gray;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body header .header-content a:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+html body header .header-home-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  right: 0;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body header .header-home-button:hover .header-home-button-content {
+  border: 1px solid #c6e6ef;
+}
+html body header .header-home-button .header-home-button-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.25s;
+}
+html body header .header-home-button .header-home-button-content svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+}
+html body header .header-dark-mode-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  transition: 0.25s;
+  cursor: pointer;
+}
+html body header .header-dark-mode-button:hover .header-dark-mode-button-content {
+  border: 1px solid #c6e6ef;
+}
+html body header .header-dark-mode-button .header-dark-mode-button-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: 0.25s;
+}
+html body header .header-dark-mode-button .header-dark-mode-button-content .dark-mode-off {
+  opacity: 1;
+}
+html body header .header-dark-mode-button .header-dark-mode-button-content .dark-mode-on {
+  opacity: 0;
+}
+html body header .header-dark-mode-button .header-dark-mode-button-content svg {
+  fill: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.25s;
+}
+html body main {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 50px);
+  margin-left: 50px;
+}
+html body main .home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: white;
+  transition: 0.25s;
+  -ms-overflow-style: none;
+  /* IE, Edge 対応 */
+  scrollbar-width: none;
+  /* Firefox 対応 */
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100px);
+  -ms-scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(100px);
+  -webkit-scroll-snap-type: mandatory;
+  -webkit-scroll-snap-points-y: repeat(100vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+html body main .home::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari 対応 */
+}
+html body main .home .selector {
+  position: fixed;
+  top: 75%;
+  right: 15px;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  transform: translateY(-50%);
+  block-size: 25px;
+  z-index: 99;
+  font-family: "Roboto", sans-serif;
+}
+html body main .home .selector a {
+  box-sizing: border-box;
+  text-decoration: none;
+  border-left: 1px solid transparent;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-size: 0.8rem;
+  transition: 0.25s;
+  color: black;
+  cursor: pointer;
+}
+html body main .home .selector a:last-child {
+  margin-bottom: 0;
+}
+html body main .home .selector a:hover {
+  border-left: 1px solid #8a8a8a;
+  color: #8a8a8a;
+}
+html body main .home .home-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+html body main .home .home-top .home-top-border {
+  position: relative;
+  width: calc(100% - 10px - 10px - 2px - 2px);
+  height: calc(100% - 10px - 10px - 2px - 2px);
+  border: 2px solid black;
+  margin: 10px;
+}
+html body main .home .home-top .home-top-border .home-top-icon {
+  position: absolute;
+  aspect-ratio: 1/1;
+  height: 100%;
+  right: 0;
+  right: -10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 50%;
+  border-radius: 50%;
+  border: 1px solid black;
+  opacity: 0.5;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 20%;
+  background-image: url(../../../images/home/29ldpi.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-plus {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 5%;
+  background-image: url(../../../images/home/30ldpi.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(40deg);
+  width: 40%;
+  height: 6%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content .home-top-icon-circle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(-40deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-1-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(-30deg);
+  aspect-ratio: 1/1;
+  height: 40%;
+  border-radius: 50%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-1-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(30deg);
+  aspect-ratio: 1/1;
+  height: 40%;
+  border-radius: 50%;
+  border-top: 1px solid transparent;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid transparent;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-one-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(50deg);
+  width: 100%;
+  height: 10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-one-content .app-one {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(-50deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-two-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(25deg);
+  width: 100%;
+  height: 10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-two-content .app-two {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(-25deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-three-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-three-content .app-three {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-four-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotatez(-25deg);
+  width: 100%;
+  height: 10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-four-content .app-four {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(25deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-five-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(-50deg);
+  width: 100%;
+  height: 10%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-five-content .app-five {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(50deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app .app-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 88%;
+  background-color: white;
+  border-radius: 50%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app a {
+  cursor: pointer;
+}
+html body main .home .home-top .home-top-border .app-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: calc(100% - 100vh - 10px - 10px - 2px - 2px + 10%);
+}
+html body main .home .home-top .home-top-border .app-content .app {
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 50px;
+  height: calc((100vh - 10px - 10px - 2px - 2px) * 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+html body main .home .home-top .home-top-border .app-content .app a {
+  position: relative;
+  display: block;
+  aspect-ratio: 1/1;
+  height: 100%;
+  cursor: pointer;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 20px #5bd6ff;
+}
+html body main .home .home-top .home-top-border .app-content .app a .app-white {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  aspect-ratio: 1/1;
+  height: 88%;
+  background-color: white;
+  border-radius: 50%;
+}
+html body main .home .home-creator {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+html body main .page-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: lightblue;
+}
+html body main .page-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: lightcoral;
+}
+html body main .page-three {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: lightgoldenrodyellow;
+}
+html body main .page-four {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: lightgreen;
+}
+html body main .page-five {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background-color: lightpink;
+}
+/*# sourceMappingURL=main.css.map */
