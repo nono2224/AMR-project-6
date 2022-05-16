@@ -304,6 +304,11 @@ html {
                         height: calc(100% - 30px - 30px - 2px - 2px);
                         border: 2px solid black;
                         margin: 30px;
+                        animation-name: home-top-border;
+                        animation-delay: 0.5s;
+                        animation-duration: 3s;
+                        animation-timing-function: cubic-bezier(.14, .74, .54, .99);
+                        will-change: animation;
                         .home-top-icon {
                             position: absolute;
                             aspect-ratio: 1 / 1;
@@ -1008,6 +1013,18 @@ html {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes home-top-border {
+    0% {
+        border: 2px solid transparent;
+    }
+    66% {
+        border: 2px solid transparent;
+    }
+    100% {
+        border: 2px solid black;
     }
 }
 

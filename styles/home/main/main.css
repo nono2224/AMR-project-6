@@ -328,6 +328,15 @@ html body main .home .home-top .home-top-border {
   height: calc(100% - 30px - 30px - 2px - 2px);
   border: 2px solid black;
   margin: 30px;
+  -webkit-animation-name: home-top-border;
+          animation-name: home-top-border;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon {
   position: absolute;
@@ -1205,6 +1214,28 @@ html body .opening-animation-block {
   }
   100% {
     opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-border {
+  0% {
+    border: 2px solid transparent;
+  }
+  66% {
+    border: 2px solid transparent;
+  }
+  100% {
+    border: 2px solid black;
+  }
+}
+@keyframes home-top-border {
+  0% {
+    border: 2px solid transparent;
+  }
+  66% {
+    border: 2px solid transparent;
+  }
+  100% {
+    border: 2px solid black;
   }
 }
 @-webkit-keyframes home-top-icon-plus {
