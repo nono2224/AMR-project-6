@@ -548,6 +548,100 @@ html body main .home .home-top .home-top-border .app-content {
   height: 100%;
   width: calc(100% - (100vh - 2px - 2px - 30px - 30px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px) - ((100vh - 2px - 2px - 30px - 30px) * 0.3 / 2 - 15px));
 }
+html body main .home .home-top .home-top-border .app-content .app-content-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-name .app-content-name-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-name .app-content-name-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-name .app-content-name-three {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-name .app-content-name-four {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-name .app-content-name-five {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt .app-content-txt-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt .app-content-txt-two {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt .app-content-txt-three {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt .app-content-txt-four {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .app-content .app-content-txt .app-content-txt-five {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 0.25s;
+}
 html body main .home .home-top .home-top-border .app-content .app {
   box-sizing: border-box;
   position: absolute;
@@ -586,36 +680,8 @@ html body main .home .home-top .home-top-border .app-content .app div .app-one {
   background-size: 60%;
   background-repeat: no-repeat;
 }
-html body main .home .home-top .home-top-border .app-content .app div .app-one::before {
-  content: "計量計算";
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50vw;
-  text-align: center;
-  text-align: center;
-  font-size: 1.2rem;
-  transform: 0.25s;
-  opacity: 0;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-one::after {
-  content: "説明を入れるのだ------------";
-  position: absolute;
-  top: 120%;
-  left: 0;
-  width: 50vw;
-  transition: 0.25s;
-  opacity: 0;
-}
 html body main .home .home-top .home-top-border .app-content .app div .app-one:hover {
   height: 120%;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-one:hover::before {
-  opacity: 1;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-one:hover::after {
-  opacity: 1;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-two {
   background-image: url(../../../images/home/02.svg);
@@ -623,36 +689,8 @@ html body main .home .home-top .home-top-border .app-content .app div .app-two {
   background-size: 85%;
   background-repeat: no-repeat;
 }
-html body main .home .home-top .home-top-border .app-content .app div .app-two::before {
-  content: "グラム単価あたりの値段比較";
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50vw;
-  text-align: center;
-  text-align: center;
-  font-size: 1.2rem;
-  transform: 0.25s;
-  opacity: 0;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-two::after {
-  content: "説明を入れるのだ------------";
-  position: absolute;
-  top: 120%;
-  left: 0;
-  width: 50vw;
-  transition: 0.25s;
-  opacity: 0;
-}
 html body main .home .home-top .home-top-border .app-content .app div .app-two:hover {
   height: 120%;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-two:hover::before {
-  opacity: 1;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-two:hover::after {
-  opacity: 1;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-three {
   background-image: url(../../../images/home/05.svg);
@@ -660,38 +698,8 @@ html body main .home .home-top .home-top-border .app-content .app div .app-three
   background-size: 85%;
   background-repeat: no-repeat;
 }
-html body main .home .home-top .home-top-border .app-content .app div .app-three::before {
-  content: "運勢占い";
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50vw;
-  text-align: center;
-  text-align: center;
-  font-size: 1.2rem;
-  transform: 0.25s;
-  opacity: 0;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-three::after {
-  content: "説明を入れるのだ------------";
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  width: 50vw;
-  transition: 0.25s;
-  opacity: 0;
-}
 html body main .home .home-top .home-top-border .app-content .app div .app-three:hover {
   height: 120%;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-three:hover::before {
-  opacity: 1;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-three:hover::after {
-  opacity: 1;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-four {
   background-image: url(../../../images/home/03.svg);
@@ -699,37 +707,8 @@ html body main .home .home-top .home-top-border .app-content .app div .app-four 
   background-size: 85%;
   background-repeat: no-repeat;
 }
-html body main .home .home-top .home-top-border .app-content .app div .app-four::before {
-  content: "服装指数";
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50vw;
-  text-align: center;
-  text-align: center;
-  font-size: 1.2rem;
-  transform: 0.25s;
-  opacity: 0;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-four::after {
-  content: "説明を入れるのだ------------";
-  position: absolute;
-  top: 120%;
-  right: 0;
-  text-align: right;
-  width: 50vw;
-  transition: 0.25s;
-  opacity: 0;
-}
 html body main .home .home-top .home-top-border .app-content .app div .app-four:hover {
   height: 120%;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-four:hover::before {
-  opacity: 1;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-four:hover::after {
-  opacity: 1;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-five {
   background-image: url(../../../images/home/04.svg);
@@ -737,37 +716,8 @@ html body main .home .home-top .home-top-border .app-content .app div .app-five 
   background-size: 60%;
   background-repeat: no-repeat;
 }
-html body main .home .home-top .home-top-border .app-content .app div .app-five::before {
-  content: "ワット計算";
-  position: absolute;
-  bottom: 120%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 50vw;
-  text-align: center;
-  text-align: center;
-  font-size: 1.2rem;
-  transform: 0.25s;
-  opacity: 0;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-five::after {
-  content: "説明を入れるのだ------------";
-  position: absolute;
-  top: 120%;
-  right: 0;
-  text-align: right;
-  width: 50vw;
-  transition: 0.25s;
-  opacity: 0;
-}
 html body main .home .home-top .home-top-border .app-content .app div .app-five:hover {
   height: 120%;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-five:hover::before {
-  opacity: 1;
-}
-html body main .home .home-top .home-top-border .app-content .app div .app-five:hover::after {
-  opacity: 1;
 }
 html body main .home .home-creator {
   position: absolute;

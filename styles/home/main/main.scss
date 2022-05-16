@@ -538,6 +538,100 @@ html {
                             left: calc(((((100vh - 2px - 2px - 30px - 30px) * 0.3) /2) - 15px));
                             height: 100%;
                             width: calc(100% - ((100vh - 2px - 2px - 30px - 30px) - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px) - ((((100vh - 2px - 2px - 30px - 30px) * 0.3) /2) - 15px));
+                            .app-content-name {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                height: 50%;
+                                width: 100%;
+                                .app-content-name-one {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-name-two {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-name-three {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-name-four {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-name-five {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                            }
+                            .app-content-txt {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                height: 50%;
+                                width: 100%;
+                                .app-content-txt-one {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-txt-two {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-txt-three {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-txt-four {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                                .app-content-txt-five {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    opacity: 0;
+                                    transition: 0.25s;
+                                }
+                            }
                             .app {
                                 box-sizing: border-box;
                                 position: absolute;
@@ -573,36 +667,8 @@ html {
                                         background-position: center;
                                         background-size: 60%;
                                         background-repeat: no-repeat;
-                                        &::before {
-                                            content: '計量計算';
-                                            position: absolute;
-                                            bottom: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            width: 50vw;
-                                            text-align: center;
-                                            text-align: center;
-                                            font-size: 1.2rem;
-                                            transform: 0.25s;
-                                            opacity: 0;
-                                        }
-                                        &::after {
-                                            content: '説明を入れるのだ------------';
-                                            position: absolute;
-                                            top: 120%;
-                                            left: 0;
-                                            width: 50vw;
-                                            transition: 0.25s;
-                                            opacity: 0;
-                                        }
                                         &:hover {
                                             height: 120%;
-                                        }
-                                        &:hover::before {
-                                            opacity: 1;
-                                        }
-                                        &:hover::after {
-                                            opacity: 1;
                                         }
                                     }
                                     .app-two {
@@ -610,36 +676,8 @@ html {
                                         background-position: center;
                                         background-size: 85%;
                                         background-repeat: no-repeat;
-                                        &::before {
-                                            content: 'グラム単価あたりの値段比較';
-                                            position: absolute;
-                                            bottom: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            width: 50vw;
-                                            text-align: center;
-                                            text-align: center;
-                                            font-size: 1.2rem;
-                                            transform: 0.25s;
-                                            opacity: 0;
-                                        }
-                                        &::after {
-                                            content: '説明を入れるのだ------------';
-                                            position: absolute;
-                                            top: 120%;
-                                            left: 0;
-                                            width: 50vw;
-                                            transition: 0.25s;
-                                            opacity: 0;
-                                        }
                                         &:hover {
                                             height: 120%;
-                                        }
-                                        &:hover::before {
-                                            opacity: 1;
-                                        }
-                                        &:hover::after {
-                                            opacity: 1;
                                         }
                                     }
                                     .app-three {
@@ -647,38 +685,8 @@ html {
                                         background-position: center;
                                         background-size: 85%;
                                         background-repeat: no-repeat;
-                                        &::before {
-                                            content: '運勢占い';
-                                            position: absolute;
-                                            bottom: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            width: 50vw;
-                                            text-align: center;
-                                            text-align: center;
-                                            font-size: 1.2rem;
-                                            transform: 0.25s;
-                                            opacity: 0;
-                                        }
-                                        &::after {
-                                            content: '説明を入れるのだ------------';
-                                            position: absolute;
-                                            top: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            text-align: center;
-                                            width: 50vw;
-                                            transition: 0.25s;
-                                            opacity: 0;
-                                        }
                                         &:hover {
                                             height: 120%;
-                                        }
-                                        &:hover::before {
-                                            opacity: 1;
-                                        }
-                                        &:hover::after {
-                                            opacity: 1;
                                         }
                                     }
                                     .app-four {
@@ -686,37 +694,8 @@ html {
                                         background-position: center;
                                         background-size: 85%;
                                         background-repeat: no-repeat;
-                                        &::before {
-                                            content: '服装指数';
-                                            position: absolute;
-                                            bottom: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            width: 50vw;
-                                            text-align: center;
-                                            text-align: center;
-                                            font-size: 1.2rem;
-                                            transform: 0.25s;
-                                            opacity: 0;
-                                        }
-                                        &::after {
-                                            content: '説明を入れるのだ------------';
-                                            position: absolute;
-                                            top: 120%;
-                                            right: 0;
-                                            text-align: right;
-                                            width: 50vw;
-                                            transition: 0.25s;
-                                            opacity: 0;
-                                        }
                                         &:hover {
                                             height: 120%;
-                                        }
-                                        &:hover::before {
-                                            opacity: 1;
-                                        }
-                                        &:hover::after {
-                                            opacity: 1;
                                         }
                                     }
                                     .app-five {
@@ -724,37 +703,8 @@ html {
                                         background-position: center;
                                         background-size: 60%;
                                         background-repeat: no-repeat;
-                                        &::before {
-                                            content: 'ワット計算';
-                                            position: absolute;
-                                            bottom: 120%;
-                                            left: 50%;
-                                            transform: translateX(-50%);
-                                            width: 50vw;
-                                            text-align: center;
-                                            text-align: center;
-                                            font-size: 1.2rem;
-                                            transform: 0.25s;
-                                            opacity: 0;
-                                        }
-                                        &::after {
-                                            content: '説明を入れるのだ------------';
-                                            position: absolute;
-                                            top: 120%;
-                                            right: 0;
-                                            text-align: right;
-                                            width: 50vw;
-                                            transition: 0.25s;
-                                            opacity: 0;
-                                        }
                                         &:hover {
                                             height: 120%;
-                                        }
-                                        &:hover::before {
-                                            opacity: 1;
-                                        }
-                                        &:hover::after {
-                                            opacity: 1;
                                         }
                                     }
                                 }
