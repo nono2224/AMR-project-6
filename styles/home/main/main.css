@@ -570,6 +570,36 @@ html body main .home .home-top .home-top-border .app-content .app a {
   border: 1px solid black;
   border-radius: 50%;
 }
+html body main .home .home-top .home-top-border .app-content .app .app-one {
+  background-image: url(../../../images/home/01.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+html body main .home .home-top .home-top-border .app-content .app .app-two {
+  background-image: url(../../../images/home/02.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+html body main .home .home-top .home-top-border .app-content .app .app-three {
+  background-image: url(../../../images/home/05.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+html body main .home .home-top .home-top-border .app-content .app .app-four {
+  background-image: url(../../../images/home/03.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+html body main .home .home-top .home-top-border .app-content .app .app-five {
+  background-image: url(../../../images/home/04.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
 html body main .home .home-creator {
   position: absolute;
   top: 100vh;
