@@ -223,7 +223,7 @@ html {
                 .selector {
                     position: fixed;
                     top: 75%;
-                    right: 15px;
+                    right: 35px;
                     writing-mode: vertical-rl;
                     transform: translateY(-50%);
                     block-size: 25px;
@@ -280,10 +280,10 @@ html {
                     }
                     .home-top-border {
                         position: relative;
-                        width: calc(100% - 10px - 10px - 2px - 2px);
-                        height: calc(100% - 10px - 10px - 2px - 2px);
+                        width: calc(100% - 30px - 30px - 2px - 2px);
+                        height: calc(100% - 30px - 30px - 2px - 2px);
                         border: 2px solid black;
-                        margin: 10px;
+                        margin: 30px;
                         .home-top-icon {
                             position: absolute;
                             aspect-ratio: 1 / 1;

@@ -229,7 +229,7 @@ html body main .home::-webkit-scrollbar {
 html body main .home .selector {
   position: fixed;
   top: 75%;
-  right: 15px;
+  right: 35px;
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   transform: translateY(-50%);
@@ -288,10 +288,10 @@ html body main .home .home-top .home-top-liner .home-top-liner-two {
 }
 html body main .home .home-top .home-top-border {
   position: relative;
-  width: calc(100% - 10px - 10px - 2px - 2px);
-  height: calc(100% - 10px - 10px - 2px - 2px);
+  width: calc(100% - 30px - 30px - 2px - 2px);
+  height: calc(100% - 30px - 30px - 2px - 2px);
   border: 2px solid black;
-  margin: 10px;
+  margin: 30px;
 }
 html body main .home .home-top .home-top-border .home-top-icon {
   position: absolute;
