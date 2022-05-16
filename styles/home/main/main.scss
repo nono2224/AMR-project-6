@@ -23,6 +23,11 @@ html {
             background-color: rgb(0, 0, 0);
             transition: 0.5s;
             z-index: 100;
+            animation-name: header;
+            animation-delay: 0.5s;
+            animation-duration: 3s;
+            animation-timing-function: cubic-bezier(.14, .74, .54, .99);
+            will-change: animation;
             .header-button {
                 position: absolute;
                 width: 50px;
@@ -194,6 +199,11 @@ html {
             left: 0;
             width: calc(100% - 50px);
             margin-left: 50px;
+            animation-name: main;
+            animation-delay: 0.5s;
+            animation-duration: 3s;
+            animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+            will-change: animation;
             .home {
                 position: absolute;
                 width: 100%;
@@ -229,6 +239,11 @@ html {
                     block-size: 25px;
                     z-index: 99;
                     font-family: 'Roboto', sans-serif;
+                    animation-name: selector;
+                    animation-delay: 0.5s;
+                    animation-duration: 3s;
+                    animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                    will-change: animation;
                     a {
                         box-sizing: border-box;
                         text-decoration: none;
@@ -267,6 +282,11 @@ html {
                             width: 100%;
                             height: 1px;
                             background-color: black;
+                            animation-name: home-top-liner-inline;
+                            animation-delay: 0.5s;
+                            animation-duration: 3s;
+                            animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                            will-change: animation;
                         }
                         .home-top-liner-two {
                             position: absolute;
@@ -289,6 +309,11 @@ html {
                             aspect-ratio: 1 / 1;
                             height: 100%;
                             right: calc(0px - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px);
+                            animation-name: home-top-icon;
+                            animation-delay: 0.5s;
+                            animation-duration: 3s;
+                            animation-timing-function: cubic-bezier(.14, .74, .54, .99);
+                            will-change: animation;
                             .home-top-liner-block {
                                 position: absolute;
                                 top: 50%;
@@ -297,6 +322,11 @@ html {
                                 height: 100%;
                                 width: 1px;
                                 background-color: black;
+                                animation-name: home-top-liner-block;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .home-top-icon-circle-3 {
                                 position: absolute;
@@ -307,6 +337,11 @@ html {
                                 height: 100%;
                                 border-radius: 50%;
                                 border: 1px solid black;
+                                animation-name: home-top-icon-circle-3;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .home-top-icon-circle-2 {
                                 position: absolute;
@@ -318,6 +353,11 @@ html {
                                 border-radius: 50%;
                                 border: 1px solid black;
                                 background-color: white;
+                                animation-name: home-top-icon-circle-2;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .home-top-icon-img {
                                 position: absolute;
@@ -329,6 +369,39 @@ html {
                                 background-image: url(../../../images/home/29ldpi.svg);
                                 background-repeat: no-repeat;
                                 background-position: center;
+                                animation-name: home-top-icon-img;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
+                            }
+                            .home-top-icon-circle-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%) rotateZ(40deg);
+                                width: 25%;
+                                height: 6%;
+                                animation-name: home-top-icon-circle-content;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
+                                .home-top-icon-circle {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    transform: translate(-50%, -50%) rotateZ(-40deg);
+                                    aspect-ratio: 1 / 1;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                    background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                    animation-name: home-top-icon-circle;
+                                    animation-delay: 0.5s;
+                                    animation-duration: 3s;
+                                    animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                    will-change: animation;
+                                }
                             }
                             .home-top-icon-plus {
                                 position: absolute;
@@ -340,24 +413,11 @@ html {
                                 background-image: url(../../../images/home/30ldpi.svg);
                                 background-repeat: no-repeat;
                                 background-position: center;
-                            }
-                            .home-top-icon-circle-content {
-                                position: absolute;
-                                top: 50%;
-                                left: 50%;
-                                transform: translate(-50%, -50%) rotateZ(40deg);
-                                width: 25%;
-                                height: 6%;
-                                .home-top-icon-circle {
-                                    position: absolute;
-                                    top: 50%;
-                                    left: 0;
-                                    transform: translate(-50%, -50%) rotateZ(-40deg);
-                                    aspect-ratio: 1 / 1;
-                                    height: 100%;
-                                    border-radius: 50%;
-                                    background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-                                }
+                                animation-name: home-top-icon-plus;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .home-top-icon-circle-1-1 {
                                 position: absolute;
@@ -371,6 +431,11 @@ html {
                                 border-right: 1px solid black;
                                 border-bottom: 1px solid transparent;
                                 border-left: 1px solid transparent;
+                                animation-name: home-top-icon-circle-1-1;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .home-top-icon-circle-1-2 {
                                 position: absolute;
@@ -384,6 +449,11 @@ html {
                                 border-right: 1px solid black;
                                 border-bottom: 1px solid black;
                                 border-left: 1px solid transparent;
+                                animation-name: home-top-icon-circle-1-2;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                             }
                             .app {
                                 position: absolute;
@@ -507,6 +577,11 @@ html {
                             top: 50%;
                             left: -15px;
                             transform: translate(-50%, -50%);
+                            animation-name: home-top-sub-icon;
+                            animation-delay: 0.5s;
+                            animation-duration: 3s;
+                            animation-timing-function: cubic-bezier(.14, .74, .54, .99);
+                            will-change: animation;
                             .home-top-sub-icon-circle-one {
                                 position: absolute;
                                 top: 50%;
@@ -538,6 +613,11 @@ html {
                             left: calc(((((100vh - 2px - 2px - 30px - 30px) * 0.3) /2) - 15px));
                             height: 100%;
                             width: calc(100% - ((100vh - 2px - 2px - 30px - 30px) - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px) - ((((100vh - 2px - 2px - 30px - 30px) * 0.3) /2) - 15px));
+                            animation-name: app-content;
+                            animation-delay: 0.5s;
+                            animation-duration: 3s;
+                            animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                            will-change: animation;
                             .app-content-name {
                                 position: absolute;
                                 top: 0;
@@ -767,5 +847,266 @@ html {
                 background-color: lightpink;
             }
         }
+        .opening-animation-block {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 100;
+            background-color: #2a2b3d;
+            opacity: 0;
+            animation-name: opening-animation-block;
+            animation-delay: 0.5s;
+            animation-duration: 3s;
+            animation-fill-mode: both;
+            animation-timing-function: cubic-bezier(.14, .74, .54, .99);
+            will-change: animation;
+        }
+    }
+}
+
+@keyframes opening-animation-block {
+    0% {
+        opacity: 1;
+        width: 100vw;
+        height: 100vh;
+    }
+    33% {
+        opacity: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    34% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    100% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes header {
+    0% {
+        width: calc(100vw - 50px);
+    }
+    66% {
+        width: calc(100vw - 50px);
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+@keyframes main {
+    0% {
+        margin-left: 0;
+    }
+    66% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
+
+@keyframes home-top-icon {
+    0% {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    66% {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    100% {
+        right: calc(0px - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px);
+    }
+}
+
+@keyframes home-top-sub-icon {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes app-content {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes selector {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-liner-block {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-liner-inline {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-circle-3 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-circle-2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-plus {
+    0% {
+        left: 50%;
+        height: 16%;
+    }
+    18% {
+        left: 50%;
+        height: 2%;
+    }
+    45% {
+        left: calc(50% - (25% / 2));
+    }
+    100% {
+        left: calc(50% - (25% / 2));
+    }
+}
+
+@keyframes home-top-icon-circle-1-1 {
+    0% {
+        opacity: 0;
+    }
+    18% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-circle-1-2 {
+    0% {
+        opacity: 0;
+    }
+    18% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-img {
+    0% {
+        opacity: 0;
+    }
+    18% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes home-top-icon-circle-content {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(90deg);
+    }
+    18% {
+        transform: translate(-50%, -50%) rotateZ(90deg);
+    }
+    45% {}
+    66% {
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(400deg);
+    }
+}
+
+@keyframes home-top-icon-circle {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(-90deg);
+        opacity: 0;
+    }
+    18% {
+        transform: translate(-50%, -50%) rotateZ(-90deg);
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    66% {
+        transform: translate(-50%, -50%) rotateZ(-360deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(-400deg);
+        opacity: 1;
     }
 }

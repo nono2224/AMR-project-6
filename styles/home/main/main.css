@@ -26,6 +26,15 @@ html body header {
   background-color: black;
   transition: 0.5s;
   z-index: 100;
+  -webkit-animation-name: header;
+          animation-name: header;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+  will-change: animation;
 }
 html body header .header-button {
   position: absolute;
@@ -197,6 +206,15 @@ html body main {
   left: 0;
   width: calc(100% - 50px);
   margin-left: 50px;
+  -webkit-animation-name: main;
+          animation-name: main;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home {
   position: absolute;
@@ -236,6 +254,15 @@ html body main .home .selector {
   block-size: 25px;
   z-index: 99;
   font-family: "Roboto", sans-serif;
+  -webkit-animation-name: selector;
+          animation-name: selector;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .selector a {
   box-sizing: border-box;
@@ -276,6 +303,15 @@ html body main .home .home-top .home-top-liner .home-top-liner-inline {
   width: 100%;
   height: 1px;
   background-color: black;
+  -webkit-animation-name: home-top-liner-inline;
+          animation-name: home-top-liner-inline;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-liner .home-top-liner-two {
   position: absolute;
@@ -298,6 +334,15 @@ html body main .home .home-top .home-top-border .home-top-icon {
   aspect-ratio: 1/1;
   height: 100%;
   right: calc(0px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px);
+  -webkit-animation-name: home-top-icon;
+          animation-name: home-top-icon;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-liner-block {
   position: absolute;
@@ -307,6 +352,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-liner-b
   height: 100%;
   width: 1px;
   background-color: black;
+  -webkit-animation-name: home-top-liner-block;
+          animation-name: home-top-liner-block;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-3 {
   position: absolute;
@@ -317,6 +371,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-ci
   height: 100%;
   border-radius: 50%;
   border: 1px solid black;
+  -webkit-animation-name: home-top-icon-circle-3;
+          animation-name: home-top-icon-circle-3;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-2 {
   position: absolute;
@@ -328,6 +391,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-ci
   border-radius: 50%;
   border: 1px solid black;
   background-color: white;
+  -webkit-animation-name: home-top-icon-circle-2;
+          animation-name: home-top-icon-circle-2;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-img {
   position: absolute;
@@ -339,6 +411,51 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-im
   background-image: url(../../../images/home/29ldpi.svg);
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-animation-name: home-top-icon-img;
+          animation-name: home-top-icon-img;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(40deg);
+  width: 25%;
+  height: 6%;
+  -webkit-animation-name: home-top-icon-circle-content;
+          animation-name: home-top-icon-circle-content;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
+}
+html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content .home-top-icon-circle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%) rotateZ(-40deg);
+  aspect-ratio: 1/1;
+  height: 100%;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  -webkit-animation-name: home-top-icon-circle;
+          animation-name: home-top-icon-circle;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-plus {
   position: absolute;
@@ -350,24 +467,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-pl
   background-image: url(../../../images/home/30ldpi.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotateZ(40deg);
-  width: 25%;
-  height: 6%;
-}
-html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-content .home-top-icon-circle {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(-50%, -50%) rotateZ(-40deg);
-  aspect-ratio: 1/1;
-  height: 100%;
-  border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+  -webkit-animation-name: home-top-icon-plus;
+          animation-name: home-top-icon-plus;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-1-1 {
   position: absolute;
@@ -381,6 +489,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-ci
   border-right: 1px solid black;
   border-bottom: 1px solid transparent;
   border-left: 1px solid transparent;
+  -webkit-animation-name: home-top-icon-circle-1-1;
+          animation-name: home-top-icon-circle-1-1;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-circle-1-2 {
   position: absolute;
@@ -394,6 +511,15 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-ci
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   border-left: 1px solid transparent;
+  -webkit-animation-name: home-top-icon-circle-1-2;
+          animation-name: home-top-icon-circle-1-2;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-icon .app {
   position: absolute;
@@ -516,6 +642,15 @@ html body main .home .home-top .home-top-border .home-top-sub-icon {
   top: 50%;
   left: -15px;
   transform: translate(-50%, -50%);
+  -webkit-animation-name: home-top-sub-icon;
+          animation-name: home-top-sub-icon;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .home-top-sub-icon .home-top-sub-icon-circle-one {
   position: absolute;
@@ -547,6 +682,15 @@ html body main .home .home-top .home-top-border .app-content {
   left: calc((100vh - 2px - 2px - 30px - 30px) * 0.3 / 2 - 15px);
   height: 100%;
   width: calc(100% - (100vh - 2px - 2px - 30px - 30px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px) - ((100vh - 2px - 2px - 30px - 30px) * 0.3 / 2 - 15px));
+  -webkit-animation-name: app-content;
+          animation-name: app-content;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .app-content .app-content-name {
   position: absolute;
@@ -771,5 +915,482 @@ html body main .page-five {
   height: 0;
   opacity: 0;
   background-color: lightpink;
+}
+html body .opening-animation-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: #2a2b3d;
+  opacity: 0;
+  -webkit-animation-name: opening-animation-block;
+          animation-name: opening-animation-block;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.14, 0.74, 0.54, 0.99);
+  will-change: animation;
+}
+
+@-webkit-keyframes opening-animation-block {
+  0% {
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+  }
+  33% {
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  34% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes opening-animation-block {
+  0% {
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+  }
+  33% {
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  34% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+@-webkit-keyframes header {
+  0% {
+    width: calc(100vw - 50px);
+  }
+  66% {
+    width: calc(100vw - 50px);
+  }
+  100% {
+    width: 100vw;
+  }
+}
+@keyframes header {
+  0% {
+    width: calc(100vw - 50px);
+  }
+  66% {
+    width: calc(100vw - 50px);
+  }
+  100% {
+    width: 100vw;
+  }
+}
+@-webkit-keyframes main {
+  0% {
+    margin-left: 0;
+  }
+  66% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+@keyframes main {
+  0% {
+    margin-left: 0;
+  }
+  66% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+@-webkit-keyframes home-top-icon {
+  0% {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  66% {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  100% {
+    right: calc(0px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px);
+  }
+}
+@keyframes home-top-icon {
+  0% {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  66% {
+    right: 50%;
+    transform: translateX(50%);
+  }
+  100% {
+    right: calc(0px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px);
+  }
+}
+@-webkit-keyframes home-top-sub-icon {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-sub-icon {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes app-content {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes app-content {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes selector {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes selector {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-liner-block {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-liner-block {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-liner-inline {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-liner-inline {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-circle-3 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-circle-3 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-circle-2 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-circle-2 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-plus {
+  0% {
+    left: 50%;
+    height: 16%;
+  }
+  18% {
+    left: 50%;
+    height: 2%;
+  }
+  45% {
+    left: 37.5%;
+  }
+  100% {
+    left: 37.5%;
+  }
+}
+@keyframes home-top-icon-plus {
+  0% {
+    left: 50%;
+    height: 16%;
+  }
+  18% {
+    left: 50%;
+    height: 2%;
+  }
+  45% {
+    left: 37.5%;
+  }
+  100% {
+    left: 37.5%;
+  }
+}
+@-webkit-keyframes home-top-icon-circle-1-1 {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-circle-1-1 {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-circle-1-2 {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-circle-1-2 {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-img {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-img {
+  0% {
+    opacity: 0;
+  }
+  18% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes home-top-icon-circle-content {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+  }
+  18% {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(400deg);
+  }
+}
+@keyframes home-top-icon-circle-content {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+  }
+  18% {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(400deg);
+  }
+}
+@-webkit-keyframes home-top-icon-circle {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+    opacity: 0;
+  }
+  18% {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(-360deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(-400deg);
+    opacity: 1;
+  }
+}
+@keyframes home-top-icon-circle {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+    opacity: 0;
+  }
+  18% {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(-360deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(-400deg);
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
