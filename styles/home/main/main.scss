@@ -259,7 +259,7 @@ html {
                         position: absolute;
                         width: 100%;
                         height: 100%;
-                        .home-top-liner-one {
+                        .home-top-liner-inline {
                             position: absolute;
                             top: 50%;
                             left: 50%;
@@ -289,6 +289,15 @@ html {
                             aspect-ratio: 1 / 1;
                             height: 100%;
                             right: calc(0px - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px);
+                            .home-top-liner-block {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 100%;
+                                width: 1px;
+                                background-color: black;
+                            }
                             .home-top-icon-circle-3 {
                                 position: absolute;
                                 top: 50%;
