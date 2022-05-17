@@ -270,6 +270,7 @@ html body main .home .selector a {
   font-size: 0.8rem;
   transition: 0.25s;
   color: black;
+  cursor: none;
 }
 html body main .home .selector a:last-child {
   margin-bottom: 0;
