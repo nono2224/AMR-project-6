@@ -887,7 +887,7 @@ html body main .page-one {
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: lightblue;
+  display: none;
 }
 html body main .page-two {
   position: absolute;
@@ -896,7 +896,7 @@ html body main .page-two {
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: lightcoral;
+  display: none;
 }
 html body main .page-three {
   position: absolute;
@@ -905,7 +905,7 @@ html body main .page-three {
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: lightgoldenrodyellow;
+  display: none;
 }
 html body main .page-four {
   position: absolute;
@@ -914,7 +914,7 @@ html body main .page-four {
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: lightgreen;
+  display: none;
 }
 html body main .page-five {
   position: absolute;
@@ -923,7 +923,7 @@ html body main .page-five {
   width: 0;
   height: 0;
   opacity: 0;
-  background-color: lightpink;
+  display: none;
 }
 html body .opening-animation-block {
   position: absolute;

@@ -167,18 +167,23 @@ function all_clear() {
     $(".page-one").css("width", "0");
     $(".page-one").css("height", "0");
     $(".page-one").css("opacity", "0");
+    $(".page-one").css("display", "none");
     $(".page-two").css("width", "0");
     $(".page-two").css("height", "0");
     $(".page-two").css("opacity", "0");
+    $(".page-two").css("display", "none");
     $(".page-three").css("width", "0");
     $(".page-three").css("height", "0");
     $(".page-three").css("opacity", "0");
+    $(".page-three").css("display", "none");
     $(".page-four").css("width", "0");
     $(".page-four").css("height", "0");
     $(".page-four").css("opacity", "0");
+    $(".page-four").css("display", "none");
     $(".page-five").css("width", "0");
     $(".page-five").css("height", "0");
     $(".page-five").css("opacity", "0");
+    $(".page-five").css("display", "none");
 }
 
 function go_home() {
@@ -203,6 +208,7 @@ function go_page_one() {
         $(".page-one").css("width", "100%");
         $(".page-one").css("height", "100%");
         $(".page-one").css("opacity", "1");
+        $(".page-one").css("display", "block");
         clearInterval(timer_go_page_one);
     }
 }
@@ -216,6 +222,7 @@ function go_page_two() {
         $(".page-two").css("width", "100%");
         $(".page-two").css("height", "100%");
         $(".page-two").css("opacity", "1");
+        $(".page-two").css("display", "block");
         clearInterval(timer_go_page_two);
     }
 }
@@ -229,6 +236,7 @@ function go_page_three() {
         $(".page-three").css("width", "100%");
         $(".page-three").css("height", "100%");
         $(".page-three").css("opacity", "1");
+        $(".page-three").css("display", "block");
         clearInterval(timer_go_page_three);
     }
 }
@@ -242,6 +250,7 @@ function go_page_four() {
         $(".page-four").css("width", "100%");
         $(".page-four").css("height", "100%");
         $(".page-four").css("opacity", "1");
+        $(".page-four").css("display", "block");
         clearInterval(timer_go_page_four);
     }
 }
@@ -255,6 +264,7 @@ function go_page_five() {
         $(".page-five").css("width", "100%");
         $(".page-five").css("height", "100%");
         $(".page-five").css("opacity", "1");
+        $(".page-five").css("display", "block");
         clearInterval(timer_go_page_five);
     }
 }
