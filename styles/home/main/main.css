@@ -16,6 +16,7 @@ html body {
   width: 100vw;
   overflow: hidden;
   position: relative;
+  cursor: none;
 }
 html body header {
   position: absolute;
@@ -43,7 +44,6 @@ html body header .header-button {
   top: 0;
   right: 0;
   border: none;
-  cursor: pointer;
   background-color: transparent;
   transition: 0.25s;
 }
@@ -126,7 +126,6 @@ html body header .header-content a {
   border: none;
   border-bottom: 2px solid gray;
   transition: 0.25s;
-  cursor: pointer;
 }
 html body header .header-content a:hover {
   background-color: rgba(128, 128, 128, 0.5);
@@ -138,7 +137,6 @@ html body header .header-home-button {
   top: 50px;
   right: 0;
   transition: 0.25s;
-  cursor: pointer;
 }
 html body header .header-home-button:hover .header-home-button-content {
   border: 1px solid #c6e6ef;
@@ -169,7 +167,6 @@ html body header .header-dark-mode-button {
   bottom: 0;
   right: 0;
   transition: 0.25s;
-  cursor: pointer;
 }
 html body header .header-dark-mode-button:hover .header-dark-mode-button-content {
   border: 1px solid #c6e6ef;
@@ -273,7 +270,6 @@ html body main .home .selector a {
   font-size: 0.8rem;
   transition: 0.25s;
   color: black;
-  cursor: pointer;
 }
 html body main .home .selector a:last-child {
   margin-bottom: 0;
@@ -643,9 +639,6 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-white {
   background-color: white;
   border-radius: 50%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app a {
-  cursor: pointer;
-}
 html body main .home .home-top .home-top-border .home-top-sub-icon {
   position: absolute;
   top: 50%;
@@ -821,7 +814,6 @@ html body main .home .home-top .home-top-border .app-content .app div a {
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  cursor: pointer;
   background-color: white;
   border-radius: 50%;
   transition: 0.25s;
@@ -924,6 +916,32 @@ html body main .page-five {
   height: 0;
   opacity: 0;
   display: none;
+}
+html body .cursor {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  background-color: rgba(82, 82, 82, 0.2);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 101;
+  transition: width 0.25s, height 0.25s, background-color 0.25s;
+}
+html body .cursor-2 {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 101;
+  transition: 0.1s, width 0.25s, height, 0.25s, background-color 0.25s;
 }
 html body .opening-animation-block {
   position: absolute;

@@ -17,50 +17,330 @@ $(".app-one").hover(
     function() {
         $(".app-content-name-one").css("opacity", "1");
         $(".app-content-txt-one").css("opacity", "1");
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
     },
     function() {
         $(".app-content-name-one").css("opacity", "0");
         $(".app-content-txt-one").css("opacity", "0");
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
     }
 );
 $(".app-two").hover(
     function() {
         $(".app-content-name-two").css("opacity", "1");
         $(".app-content-txt-two").css("opacity", "1");
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
     },
     function() {
         $(".app-content-name-two").css("opacity", "0");
         $(".app-content-txt-two").css("opacity", "0");
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
     }
 );
 $(".app-three").hover(
     function() {
         $(".app-content-name-three").css("opacity", "1");
         $(".app-content-txt-three").css("opacity", "1");
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
     },
     function() {
         $(".app-content-name-three").css("opacity", "0");
         $(".app-content-txt-three").css("opacity", "0");
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
     }
 );
 $(".app-four").hover(
     function() {
         $(".app-content-name-four").css("opacity", "1");
         $(".app-content-txt-four").css("opacity", "1");
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
     },
     function() {
         $(".app-content-name-four").css("opacity", "0");
         $(".app-content-txt-four").css("opacity", "0");
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
     }
 );
 $(".app-five").hover(
     function() {
         $(".app-content-name-five").css("opacity", "1");
         $(".app-content-txt-five").css("opacity", "1");
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
     },
     function() {
         $(".app-content-name-five").css("opacity", "0");
         $(".app-content-txt-five").css("opacity", "0");
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".selector-top").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".selector-creator").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$("header").hover(
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        header_hover = 1;
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        header_hover = 0;
+    }
+);
+$(".header-button").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        if (header_hover == 0) {
+            $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        } else if (header_hover == 1) {
+            $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        }
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-home-button").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        if (header_hover == 0) {
+            $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        } else if (header_hover == 1) {
+            $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        }
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-dark-mode-button").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        if (header_hover == 0) {
+            $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        } else if (header_hover == 1) {
+            $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        }
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-home").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-page-one").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-page-two").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-page-three").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-page-four").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".header-content-page-five").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(255,255,255,0.7)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
     }
 );
 
@@ -84,8 +364,24 @@ $(window).keydown(function(e) {
     }
 });
 
+$(document).on("mousemove", function(e) {
+    //カーソルの座標位置を取得
+    var x = e.clientX;
+    var y = e.clientY;
+    //カーソル要素のcssを書き換える用
+    $(".cursor").css({
+        top: y + "px",
+        left: x + "px",
+    });
+    $(".cursor-2").css({
+        top: y + "px",
+        left: x + "px",
+    });
+});
+
 var header_open_close_check = 0;
 var dark_mode_check = 0;
+var header_hover = 0;
 
 function start_scroll_timer() {
     var timer_start_scroll_timer = setInterval(start_scroll, 3500);

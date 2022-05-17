@@ -14,6 +14,7 @@ html {
         width: 100vw;
         overflow: hidden;
         position: relative;
+        cursor: none;
         header {
             position: absolute;
             top: 0;
@@ -35,7 +36,6 @@ html {
                 top: 0;
                 right: 0;
                 border: none;
-                cursor: pointer;
                 background-color: transparent;
                 transition: 0.25s;
                 &:hover .header-button-content {
@@ -117,7 +117,6 @@ html {
                     border: none;
                     border-bottom: 2px solid gray;
                     transition: 0.25s;
-                    cursor: pointer;
                     &:hover {
                         background-color: rgba(128, 128, 128, 0.5);
                     }
@@ -130,7 +129,6 @@ html {
                 top: 50px;
                 right: 0;
                 transition: 0.25s;
-                cursor: pointer;
                 &:hover .header-home-button-content {
                     border: 1px solid #c6e6ef;
                 }
@@ -161,7 +159,6 @@ html {
                 bottom: 0;
                 right: 0;
                 transition: 0.25s;
-                cursor: pointer;
                 &:hover .header-dark-mode-button-content {
                     border: 1px solid #c6e6ef;
                 }
@@ -253,7 +250,6 @@ html {
                         font-size: 0.8rem;
                         transition: 0.25s;
                         color: black;
-                        cursor: pointer;
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -572,9 +568,6 @@ html {
                                     background-color: white;
                                     border-radius: 50%;
                                 }
-                                a {
-                                    cursor: pointer;
-                                }
                             }
                         }
                         .home-top-sub-icon {
@@ -741,7 +734,6 @@ html {
                                         aspect-ratio: 1 / 1;
                                         height: 100%;
                                         border-radius: 50%;
-                                        cursor: pointer;
                                         background-color: white;
                                         border-radius: 50%;
                                         transition: 0.25s;
@@ -851,6 +843,32 @@ html {
                 opacity: 0;
                 display: none;
             }
+        }
+        .cursor {
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            transform: translate(-50%, -50%);
+            width: 25px;
+            height: 25px;
+            background-color: rgba(82, 82, 82, 0.2);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 101;
+            transition: width 0.25s, height 0.25s, background-color 0.25s;
+        }
+        .cursor-2 {
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+            border: 1px solid lightblue;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 101;
+            transition: 0.1s, width 0.25s, height, 0.25s, background-color 0.25s;
         }
         .opening-animation-block {
             position: absolute;
