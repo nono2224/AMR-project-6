@@ -141,7 +141,43 @@ $(".selector-top").hover(
         $(".cursor-2").css("height", "30px");
     }
 );
+$(".selector-explanation").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
 $(".selector-creator").hover(
+    function() {
+        $(".cursor").css("background-color", "#83e6ee8d");
+        $(".cursor").css("width", "100px");
+        $(".cursor").css("height", "100px");
+        $(".cursor-2").css("border", "1px solid #95aee9ad");
+        $(".cursor-2").css("width", "125px");
+        $(".cursor-2").css("height", "125px");
+    },
+    function() {
+        $(".cursor").css("background-color", "rgb(82,82,82,0.2)");
+        $(".cursor").css("width", "25px");
+        $(".cursor").css("height", "25px");
+        $(".cursor-2").css("border", "1px solid lightblue");
+        $(".cursor-2").css("width", "30px");
+        $(".cursor-2").css("height", "30px");
+    }
+);
+$(".selector-history").hover(
     function() {
         $(".cursor").css("background-color", "#83e6ee8d");
         $(".cursor").css("width", "100px");

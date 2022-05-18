@@ -243,11 +243,10 @@ html body main .home::-webkit-scrollbar {
 }
 html body main .home .selector {
   position: fixed;
-  top: 75%;
+  bottom: 100px;
   right: 35px;
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
-  transform: translateY(-50%);
   block-size: 25px;
   z-index: 99;
   font-family: "Roboto", sans-serif;
@@ -264,9 +263,10 @@ html body main .home .selector {
 html body main .home .selector a {
   box-sizing: border-box;
   text-decoration: none;
-  border-left: 1px solid transparent;
   line-height: 25px;
-  margin-bottom: 25px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid black;
+  margin-bottom: 12px;
   font-size: 0.8rem;
   transition: 0.25s;
   color: black;
@@ -274,9 +274,10 @@ html body main .home .selector a {
 }
 html body main .home .selector a:last-child {
   margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 html body main .home .selector a:hover {
-  border-left: 1px solid #8a8a8a;
   color: #8a8a8a;
 }
 html body main .home .home-top {
