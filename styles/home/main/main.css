@@ -536,15 +536,17 @@ html body main .home .home-top .home-top-border .home-top-icon .home-top-icon-ci
           animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
   will-change: animation;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app {
+html body main .home .home-top .home-top-border .home-top-icon .app-second {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+  z-index: 2;
+  display: none;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-one-content {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-one-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -552,7 +554,7 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-one-con
   width: 100%;
   height: 10%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-one-content .app-one {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-one-content .app-one {
   position: absolute;
   top: 50%;
   left: 0;
@@ -560,10 +562,18 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-one-con
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-  box-shadow: 0 0 20px #5bd6ff;
+  background-color: white;
+  border: 1px solid black;
+  background-image: url(../../../images/home/01.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  transition: 0.25s;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-two-content {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-one-content .app-one:hover {
+  height: 120%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-two-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -571,7 +581,7 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-two-con
   width: 100%;
   height: 10%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-two-content .app-two {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-two-content .app-two {
   position: absolute;
   top: 50%;
   left: 0;
@@ -579,10 +589,18 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-two-con
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-  box-shadow: 0 0 20px #5bd6ff;
+  background-color: white;
+  border: 1px solid black;
+  background-image: url(../../../images/home/02.svg);
+  background-position: center;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  transition: 0.25s;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-three-content {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-two-content .app-two:hover {
+  height: 120%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-three-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -590,7 +608,7 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-three-c
   width: 100%;
   height: 10%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-three-content .app-three {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-three-content .app-three {
   position: absolute;
   top: 50%;
   left: 0;
@@ -598,10 +616,18 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-three-c
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-  box-shadow: 0 0 20px #5bd6ff;
+  background-color: white;
+  border: 1px solid black;
+  background-image: url(../../../images/home/05.svg);
+  background-position: center;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  transition: 0.25s;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-four-content {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-three-content .app-three:hover {
+  height: 120%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-four-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -609,7 +635,7 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-four-co
   width: 100%;
   height: 10%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-four-content .app-four {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-four-content .app-four {
   position: absolute;
   top: 50%;
   left: 0;
@@ -617,10 +643,18 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-four-co
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-  box-shadow: 0 0 20px #5bd6ff;
+  background-color: white;
+  border: 1px solid black;
+  background-image: url(../../../images/home/03.svg);
+  background-position: center;
+  background-size: 85%;
+  background-repeat: no-repeat;
+  transition: 0.25s;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-five-content {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-four-content .app-four:hover {
+  height: 120%;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-five-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -628,7 +662,7 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-five-co
   width: 100%;
   height: 10%;
 }
-html body main .home .home-top .home-top-border .home-top-icon .app .app-five-content .app-five {
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-five-content .app-five {
   position: absolute;
   top: 50%;
   left: 0;
@@ -636,18 +670,16 @@ html body main .home .home-top .home-top-border .home-top-icon .app .app-five-co
   aspect-ratio: 1/1;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
-  box-shadow: 0 0 20px #5bd6ff;
-}
-html body main .home .home-top .home-top-border .home-top-icon .app .app-white {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  aspect-ratio: 1/1;
-  height: 88%;
   background-color: white;
-  border-radius: 50%;
+  border: 1px solid black;
+  background-image: url(../../../images/home/04.svg);
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  transition: 0.25s;
+}
+html body main .home .home-top .home-top-border .home-top-icon .app-second .app-five-content .app-five:hover {
+  height: 120%;
 }
 html body main .home .home-top .home-top-border .home-top-sub-icon {
   position: absolute;
@@ -870,7 +902,7 @@ html body main .home .home-top .home-top-border .app-content .app div a {
   border: 1px solid black;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-one {
-  background-image: url(../../../images/home/01.svg);
+  background-image: url(../../../images/home/1.svg);
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -879,34 +911,34 @@ html body main .home .home-top .home-top-border .app-content .app div .app-one:h
   height: 120%;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-two {
-  background-image: url(../../../images/home/02.svg);
+  background-image: url(../../../images/home/2.svg);
   background-position: center;
-  background-size: 85%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-two:hover {
   height: 120%;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-three {
-  background-image: url(../../../images/home/05.svg);
+  background-image: url(../../../images/home/3.svg);
   background-position: center;
-  background-size: 85%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-three:hover {
   height: 120%;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-four {
-  background-image: url(../../../images/home/03.svg);
+  background-image: url(../../../images/home/4.svg);
   background-position: center;
-  background-size: 85%;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-four:hover {
   height: 120%;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-five {
-  background-image: url(../../../images/home/04.svg);
+  background-image: url(../../../images/home/5.svg);
   background-position: center;
   background-size: 60%;
   background-repeat: no-repeat;
