@@ -767,6 +767,11 @@ html {
                                 width: 100%;
                                 display: flex;
                                 justify-content: space-between;
+                                animation-name: app;
+                                animation-delay: 0.5s;
+                                animation-duration: 3s;
+                                animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                will-change: animation;
                                 div {
                                     position: relative;
                                     display: block;
@@ -784,6 +789,11 @@ html {
                                         border-radius: 50%;
                                         transition: 0.25s;
                                         border: 1px solid black;
+                                        animation-name: app-icon;
+                                        animation-delay: 0.5s;
+                                        animation-duration: 3s;
+                                        animation-timing-function: cubic-bezier(.13, .47, .54, .99);
+                                        will-change: animation;
                                     }
                                     .app-one {
                                         background-image: url(../../../images/home/1.svg);
@@ -1189,5 +1199,29 @@ html {
     100% {
         transform: translate(-50%, -50%) rotateZ(-400deg);
         opacity: 1;
+    }
+}
+
+@keyframes app {
+    0% {
+        left: 0;
+    }
+    66% {
+        left: 0;
+    }
+    100% {
+        left: 50%;
+    }
+}
+
+@keyframes app-icon {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(-160deg);
+    }
+    66% {
+        transform: translate(-50%, -50%) rotateZ(-160deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
     }
 }

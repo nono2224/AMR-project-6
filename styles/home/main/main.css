@@ -881,6 +881,15 @@ html body main .home .home-top .home-top-border .app-content .app {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  -webkit-animation-name: app;
+          animation-name: app;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .app-content .app div {
   position: relative;
@@ -900,6 +909,15 @@ html body main .home .home-top .home-top-border .app-content .app div a {
   border-radius: 50%;
   transition: 0.25s;
   border: 1px solid black;
+  -webkit-animation-name: app-icon;
+          animation-name: app-icon;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+          animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
+  will-change: animation;
 }
 html body main .home .home-top .home-top-border .app-content .app div .app-one {
   background-image: url(../../../images/home/1.svg);
@@ -1522,6 +1540,50 @@ html body .opening-animation-block {
   100% {
     transform: translate(-50%, -50%) rotateZ(-400deg);
     opacity: 1;
+  }
+}
+@-webkit-keyframes app {
+  0% {
+    left: 0;
+  }
+  66% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@keyframes app {
+  0% {
+    left: 0;
+  }
+  66% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@-webkit-keyframes app-icon {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(-160deg);
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(-160deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+}
+@keyframes app-icon {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(-160deg);
+  }
+  66% {
+    transform: translate(-50%, -50%) rotateZ(-160deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
   }
 }
 /*# sourceMappingURL=main.css.map */
