@@ -269,13 +269,17 @@ html body main .home .selector {
           animation-timing-function: cubic-bezier(0.13, 0.47, 0.54, 0.99);
   will-change: animation;
 }
+html body main .home .selector .selector-border {
+  display: inline-block;
+  block-size: 50%;
+  inline-size: 1px;
+  background-color: #2a2b3d;
+  margin-inline: 10px;
+}
 html body main .home .selector a {
   box-sizing: border-box;
   text-decoration: none;
   line-height: 25px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid black;
-  margin-bottom: 12px;
   font-size: 0.8rem;
   transition: 0.25s;
   color: black;
@@ -284,11 +288,6 @@ html body main .home .selector a {
       -ms-user-select: none;
           user-select: none;
   cursor: none;
-}
-html body main .home .selector a:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: none;
 }
 html body main .home .selector a:hover {
   color: #8a8a8a;

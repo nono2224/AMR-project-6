@@ -247,23 +247,22 @@ html {
                     animation-duration: 3s;
                     animation-timing-function: cubic-bezier(.13, .47, .54, .99);
                     will-change: animation;
+                    .selector-border {
+                        display: inline-block;
+                        block-size: 50%;
+                        inline-size: 1px;
+                        background-color: #2a2b3d;
+                        margin-inline: 10px;
+                    }
                     a {
                         box-sizing: border-box;
                         text-decoration: none;
                         line-height: 25px;
-                        padding-bottom: 12px;
-                        border-bottom: 1px solid black;
-                        margin-bottom: 12px;
                         font-size: 0.8rem;
                         transition: 0.25s;
                         color: black;
                         user-select: none;
                         cursor: none;
-                        &:last-child {
-                            margin-bottom: 0;
-                            padding-bottom: 0;
-                            border-bottom: none;
-                        }
                         &:hover {
                             color: rgb(138, 138, 138);
                         }
