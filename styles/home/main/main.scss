@@ -852,6 +852,195 @@ html {
                     width: 100%;
                     height: 100%;
                     scroll-snap-align: start;
+                    .creator-content {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 125px;
+                        font-size: 0;
+                        display: flex;
+                        .creator-content-border {
+                            position: relative;
+                            height: 100%;
+                            width: 100px;
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 1px;
+                                height: 60%;
+                                background-color: lightslategray;
+                            }
+                        }
+                        .creator-content-one {
+                            position: relative;
+                            height: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-image: url(../../../images/home/アセット\ 1.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            &::before {
+                                content: 'ここに名前を入れる';
+                                font-size: 1rem;
+                                width: calc(100% + 25px);
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translate(-50%, 50%);
+                            }
+                            .creator-content-one-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 80%;
+                                width: 80%;
+                                border-radius: 50%;
+                                background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                z-index: -1;
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                        }
+                        .creator-content-two {
+                            position: relative;
+                            height: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-image: url(../../../images/home/アセット\ 4.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 70%;
+                            &::before {
+                                content: 'ここに名前を入れる';
+                                font-size: 1rem;
+                                width: calc(100% + 25px);
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translate(-50%, 50%);
+                            }
+                            .creator-content-two-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 80%;
+                                width: 80%;
+                                border-radius: 50%;
+                                background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                z-index: -1;
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                        }
+                        .creator-content-three {
+                            position: relative;
+                            height: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-image: url(../../../images/home/アセット\ 5.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            &::before {
+                                content: 'ここに名前を入れる';
+                                font-size: 1rem;
+                                width: calc(100% + 25px);
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translate(-50%, 50%);
+                            }
+                            .creator-content-three-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 80%;
+                                width: 80%;
+                                border-radius: 50%;
+                                background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                z-index: -1;
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                        }
+                        .creator-content-four {
+                            position: relative;
+                            height: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-image: url(../../../images/home/アセット\ 6.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            &::before {
+                                content: 'ここに名前を入れる';
+                                font-size: 1rem;
+                                width: calc(100% + 25px);
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translate(-50%, 50%);
+                            }
+                            .creator-content-four-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 80%;
+                                width: 80%;
+                                border-radius: 50%;
+                                background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                z-index: -1;
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                        }
+                        .creator-content-five {
+                            position: relative;
+                            height: 100%;
+                            aspect-ratio: 1 / 1;
+                            background-image: url(../../../images/home/アセット\ 9.svg);
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 70%;
+                            &::before {
+                                content: 'ここに名前を入れる';
+                                font-size: 1rem;
+                                width: calc(100% + 25px);
+                                position: absolute;
+                                bottom: -25px;
+                                left: 50%;
+                                transform: translate(-50%, 50%);
+                            }
+                            .creator-content-five-content {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 80%;
+                                width: 80%;
+                                border-radius: 50%;
+                                background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                                z-index: -1;
+                                opacity: 0;
+                                transition: .5s;
+                            }
+                        }
+                        .creator-content-txt {
+                            font-size: 1rem;
+                            position: absolute;
+                            top: calc(100% + 200px);
+                            left: 50%;
+                            transform: translateX(-50%);
+                            user-select: none;
+                            opacity: 0;
+                            transition: .5s;
+                        }
+                    }
                 }
             }
             .page-one {

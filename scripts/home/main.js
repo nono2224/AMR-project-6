@@ -379,6 +379,81 @@ $(".header-content-page-five").hover(
         $(".cursor-2").css("height", "30px");
     }
 );
+$(".creator-content-one").hover(
+    function() {
+        $(".creator-content-one-content").css("opacity", ".5");
+        $(".creator-content-one-content").css("top", "70%");
+        $(".creator-content-one-content").css("left", "70%");
+        $(".creator-content-txt").text("担当者1の作業内容をここに書く");
+        $(".creator-content-txt").css("opacity", "1");
+    },
+    function() {
+        $(".creator-content-one-content").css("opacity", "0");
+        $(".creator-content-one-content").css("top", "50%");
+        $(".creator-content-one-content").css("left", "50%");
+        $(".creator-content-txt").css("opacity", "0");
+    }
+);
+$(".creator-content-two").hover(
+    function() {
+        $(".creator-content-two-content").css("opacity", ".5");
+        $(".creator-content-two-content").css("top", "70%");
+        $(".creator-content-two-content").css("left", "70%");
+        $(".creator-content-txt").text("担当者2の作業内容をここに書く");
+        $(".creator-content-txt").css("opacity", "1");
+    },
+    function() {
+        $(".creator-content-two-content").css("opacity", "0");
+        $(".creator-content-two-content").css("top", "50%");
+        $(".creator-content-two-content").css("left", "50%");
+        $(".creator-content-txt").css("opacity", "0");
+    }
+);
+$(".creator-content-three").hover(
+    function() {
+        $(".creator-content-three-content").css("opacity", ".5");
+        $(".creator-content-three-content").css("top", "70%");
+        $(".creator-content-three-content").css("left", "70%");
+        $(".creator-content-txt").text("担当者3の作業内容をここに書く");
+        $(".creator-content-txt").css("opacity", "1");
+    },
+    function() {
+        $(".creator-content-three-content").css("opacity", "0");
+        $(".creator-content-three-content").css("top", "50%");
+        $(".creator-content-three-content").css("left", "50%");
+        $(".creator-content-txt").css("opacity", "0");
+    }
+);
+$(".creator-content-four").hover(
+    function() {
+        $(".creator-content-four-content").css("opacity", ".5");
+        $(".creator-content-four-content").css("top", "70%");
+        $(".creator-content-four-content").css("left", "70%");
+        $(".creator-content-txt").text("担当者4の作業内容をここに書く");
+        $(".creator-content-txt").css("opacity", "1");
+    },
+    function() {
+        $(".creator-content-four-content").css("opacity", "0");
+        $(".creator-content-four-content").css("top", "50%");
+        $(".creator-content-four-content").css("left", "50%");
+        $(".creator-content-txt").css("opacity", "0");
+    }
+);
+$(".creator-content-five").hover(
+    function() {
+        $(".creator-content-five-content").css("opacity", ".5");
+        $(".creator-content-five-content").css("top", "70%");
+        $(".creator-content-five-content").css("left", "70%");
+        $(".creator-content-txt").text("担当者5の作業内容をここに書く");
+        $(".creator-content-txt").css("opacity", "1");
+    },
+    function() {
+        $(".creator-content-five-content").css("opacity", "0");
+        $(".creator-content-five-content").css("top", "50%");
+        $(".creator-content-five-content").css("left", "50%");
+        $(".creator-content-txt").css("opacity", "0");
+    }
+);
 
 $(window).keydown(function(e) {
     if (e.keyCode == 27) {
