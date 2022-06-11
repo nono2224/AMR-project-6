@@ -305,9 +305,9 @@ html {
                     }
                     .home-top-border {
                         position: relative;
-                        width: calc(100% - 30px - 30px - 2px - 2px);
-                        height: calc(100% - 30px - 30px - 2px - 2px);
-                        border: 2px solid black;
+                        width: calc(100% - 30px - 30px - 1px - 2px);
+                        height: calc(100% - 30px - 30px - 1px - 2px);
+                        border: 1px solid black;
                         margin: 30px;
                         animation-name: home-top-border;
                         animation-delay: 0.5s;
@@ -318,7 +318,7 @@ html {
                             position: absolute;
                             aspect-ratio: 1 / 1;
                             height: 100%;
-                            right: calc(0px - ((100vh - 2px - 2px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px);
+                            right: calc(0px - ((100vh - 1px - 1px - 30px - 30px) * ((1 - 0.375) / 2)) + 50px);
                             animation-name: home-top-icon;
                             animation-delay: 0.5s;
                             animation-duration: 3s;
@@ -627,7 +627,7 @@ html {
                                 left: 50%;
                                 transform: translate(-50%, -50%);
                                 aspect-ratio: 1 / 1;
-                                height: calc((100vh - 2px - 2px - 30px - 30px) * 0.1);
+                                height: calc((100vh - 1px - 1px - 30px - 30px) * 0.1);
                                 border-radius: 50%;
                                 border: 1px solid black;
                             }
@@ -641,7 +641,7 @@ html {
                                 left: 50%;
                                 transform: translate(-50%, -50%);
                                 aspect-ratio: 1 / 1;
-                                height: calc((100vh - 2px - 2px - 30px - 30px) * 0.3);
+                                height: calc((100vh - 1px - 1px - 30px - 30px) * 0.3);
                                 border-radius: 50%;
                                 border: 1px solid black;
                             }

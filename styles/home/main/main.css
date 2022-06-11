@@ -334,9 +334,9 @@ html body main .home .home-top .home-top-liner .home-top-liner-two {
 }
 html body main .home .home-top .home-top-border {
   position: relative;
-  width: calc(100% - 30px - 30px - 2px - 2px);
-  height: calc(100% - 30px - 30px - 2px - 2px);
-  border: 2px solid black;
+  width: calc(100% - 30px - 30px - 1px - 2px);
+  height: calc(100% - 30px - 30px - 1px - 2px);
+  border: 1px solid black;
   margin: 30px;
   -webkit-animation-name: home-top-border;
           animation-name: home-top-border;
@@ -352,7 +352,7 @@ html body main .home .home-top .home-top-border .home-top-icon {
   position: absolute;
   aspect-ratio: 1/1;
   height: 100%;
-  right: calc(0px - (100vh - 2px - 2px - 30px - 30px) * 0.3125 + 50px);
+  right: calc(0px - (100vh - 1px - 1px - 30px - 30px) * 0.3125 + 50px);
   -webkit-animation-name: home-top-icon;
           animation-name: home-top-icon;
   -webkit-animation-delay: 0.5s;
@@ -706,7 +706,7 @@ html body main .home .home-top .home-top-border .home-top-sub-icon .home-top-sub
   left: 50%;
   transform: translate(-50%, -50%);
   aspect-ratio: 1/1;
-  height: calc((100vh - 2px - 2px - 30px - 30px) * 0.1);
+  height: calc((100vh - 1px - 1px - 30px - 30px) * 0.1);
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -720,7 +720,7 @@ html body main .home .home-top .home-top-border .home-top-sub-icon .home-top-sub
   left: 50%;
   transform: translate(-50%, -50%);
   aspect-ratio: 1/1;
-  height: calc((100vh - 2px - 2px - 30px - 30px) * 0.3);
+  height: calc((100vh - 1px - 1px - 30px - 30px) * 0.3);
   border-radius: 50%;
   border: 1px solid black;
 }
