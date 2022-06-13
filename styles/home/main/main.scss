@@ -857,6 +857,37 @@ html {
                     width: 100%;
                     height: 100%;
                     scroll-snap-align: start;
+                    .home-creator-title {
+                        position: absolute;
+                        top: 25px;
+                        left: 25px;
+                        width: 400px;
+                        height: 50px;
+                        .home-creator-title-txt {
+                            width: 100%;
+                            height: 100%;
+                            text-align: center;
+                            line-height: 50px;
+                        }
+                        .home-creator-title-block-1 {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background-color: black;
+                            height: 100%;
+                            width: 0;
+                            transition: 0.4s;
+                        }
+                        .home-creator-title-block-2 {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            background-image: linear-gradient(140deg, #83e6ee 0%, #95aee9 100%);
+                            height: 100%;
+                            width: 0;
+                            transition: 0.4s;
+                        }
+                    }
                     .creator-content {
                         position: absolute;
                         top: 50%;

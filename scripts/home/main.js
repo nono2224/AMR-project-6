@@ -12,6 +12,7 @@ $(".header-content-page-three").on("click", go_page_three);
 $(".header-content-page-four").on("click", go_page_four);
 $(".header-content-page-five").on("click", go_page_five);
 $(".header-dark-mode-button").on("click", dark_mode_change);
+$(".selector-creator").on("click", creator_animation);
 
 $(".app-one").hover(
     function() {
@@ -698,6 +699,23 @@ function dark_mode_change() {
         $(".dark-mode-on").css("opacity", "0");
         dark_mode_check = 0;
     }
+}
+
+function creator_animation() {
+    $(".home-creator-title-block-1").css("width", "100%");
+    setTimeout(() => {
+        $(".home-creator-title-block-2").css("width", "100%");
+        setTimeout(() => {
+            $(".home-creator-title-block-1").css("left", "100%");
+            $(".home-creator-title-block-1").css("width", "0");
+            $(".home-creator-title-block-2").css("left", "100%");
+            $(".home-creator-title-block-2").css("width", "0");
+            setTimeout(() => {
+                $(".home-creator-title-block-1").css("left", "0");
+                $(".home-creator-title-block-2").css("left", "0");
+            }, 400);
+        }, 400);
+    }, 400);
 }
 
 start_scroll_timer();
